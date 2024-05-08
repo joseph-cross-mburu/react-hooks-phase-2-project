@@ -13,7 +13,7 @@ const App = () => {
         
           <Route path="/" exact component={<Dashboard/>} />
           <Route path='/components/About' component={<About/>} />
-          <Route path='/components/ContactUs' component={ContactUs} />
+          <Route path='/components/ContactUs' component={<ContactUs/>} />
         
       </div>
     </Router>
