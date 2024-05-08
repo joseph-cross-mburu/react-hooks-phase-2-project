@@ -11,8 +11,8 @@ const App = () => {
       <div>
         <Sidebar />
         
-          <Route path="/" exact component={Dashboard} />
-          <Route path='/components/About' component={About} />
+          <Route path="/" exact component={<Dashboard/>} />
+          <Route path='/components/About' component={<About/>} />
           <Route path='/components/ContactUs' component={ContactUs} />
         
       </div>
