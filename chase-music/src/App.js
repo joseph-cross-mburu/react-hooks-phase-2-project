@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard';
 import Sidebar from './components/SideBar';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
+import Register from './components/Register';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" exact component={<Dashboard/>} />
           <Route path='/components/About' component={<About/>} />
           <Route path='/components/ContactUs' component={<ContactUs/>} />
+          <Route path='/components/Register' component={<Register/>} />
         
       </div>
     </Router>
